@@ -38,7 +38,7 @@ export default class MyDocument extends Document {
       <Html lang="en-us">
         <Head />
         <body>
-          <ColorModeScript initialColorMode={theme.initialColorMode} />
+          <ColorModeScript initialColorMode={theme.config.initialColorMode} />
           <Main />
           <NextScript />
         </body>
